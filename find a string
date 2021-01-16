@@ -1,0 +1,6 @@
+import re
+def count_substring(a,b):
+    result=re.findall('(?='+b+')',a)
+    
+    return(len(result))
+
